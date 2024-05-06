@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">A</h1>
-                <h3>For Appa</h3>
+                <h3 class="azul">For Appa</h3>
             </div>
             <div class="col-8">
                 <img src="Pictures/a-appa.jpg" class="img-thumbnail">
@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">C</h1>
-                <h3>For Coffee</h3>
+                <h3 id="rojo">For Coffee</h3>
             </div>
             <div class="col-8">
                 <!-- Notice where the URL goes to -->
@@ -90,7 +90,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">E</h1>
-                <h3>For Elephant</h3>
+                <h3>For Elephan</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
@@ -104,7 +104,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">F</h1>
-                <h3>For Frog</h3>
+                <h3>For </h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
@@ -160,11 +160,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">J</h1>
-                <h3>For Iguana </h3>
+                <h3>For Jellyfish </h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image -->
-                <img src="Pictures/I - Iguana.jpg" class="img-thumbnail">
+                <img src="Pictures/J - Jellyfish.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -188,7 +188,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">L</h1>
-                <h3>For Lion</h3>
+                <h3 class="azul">For Lion</h3>
             </div>
             <div class="col-8">
                 <img src="Pictures/L - Lion.jpg" class="img-thumbnail">
@@ -282,7 +282,7 @@
                 <h3>For Salt</h3>
             </div>
             <div class="col-8">
-                <img src="https://static.toiimg.com/thumb/72144360.cms?width=400&height=300&resizemode=4&imgsize=430881"
+                <img src="https://static.toiimg.com/thumb/72144360.cms?width=400&height=300&resizemode=4&imgsize=430881">
               
             </div>
         </div>
@@ -296,7 +296,7 @@
                 <h3>For Table</h3>
             </div>
             <div class="col-8">
-                <img src="data:image/jpeg;base64,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 " width="400"
+                <img src="data:image/jpeg;base64,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 " width="400">
               
             </div>
         </div>
@@ -307,7 +307,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">U</h1>
-                <h3>For Umbrella</h3>
+                <h3 class="azul">For Umbrella</h3>
             </div>
             <div class="col-8">
                 <img src="Pictures/U - Umbrella.jpg" width="380">
@@ -321,10 +321,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">V</h1>
-                <h3>For vegetable</h3>
-                <img src="Pictures/V - vegetable.jpg" width="380">
+                <h3>For vegetable</h3> 
             </div>
             <div class="col-8">
+                <img src="Pictures/V - vegetable.jpg" width="380">
 
             </div>
         </div>
@@ -335,10 +335,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">W</h1>
-                <h3>For Waves</h3>
-                <img src="Pictures/W - Waves.jpg" width="380">
+                <h3>For Waves</h3>    
             </div>
             <div class="col-8">
+                <img src="Pictures/W - Waves.jpg" width="380">
 
             </div>
         </div>
@@ -351,10 +351,9 @@
             <div class="col-4">
                 <h1 class="display-1">X</h1>
                 <h3>for Xbox</h3>
-                <img src="Pictures/X - Xbox.jpg" width="380">
             </div>
             <div class="col-8">
-
+                <img src="Pictures/X - Xbox.jpg" width="380">
             </div>
         </div>
         <hr>
@@ -366,10 +365,9 @@
             <div class="col-4">
                 <h1 class="display-1">Y</h1>
                 <h3>for -Yuca</h3>
-                <img src="Pictures/Y -Yuca.jpg" width="380">
             </div>
             <div class="col-8">
-
+                <img src="Pictures/Y -Yuca.jpg" width="380">
             </div>
         </div>
         <hr>
@@ -381,14 +379,14 @@
             <div class="col-4">
                 <h1 class="display-1">Z</h1>
                 <h3>for Zebra</h3>
-                <img src="Pictures/Z - Zebra.jpg" width="380">
             </div>
             <div class="col-8">
-
+                <img src="Pictures/Z - Zebra.jpg" width="380">
             </div>
         </div>
         <hr>
         <hr>
     </main>
+    <script src="/script.js" > </script>
 </body>
 </html>
